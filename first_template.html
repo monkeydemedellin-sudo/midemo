@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tailwind CDN Template</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gray-100 text-gray-900">
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <h1 class="text-xl font-semibold">Project Name</h1>
+      <nav class="space-x-4">
+        <a href="#" class="text-sm hover:underline">Home</a>
+        <a href="#" class="text-sm hover:underline">Docs</a>
+        <a href="#" class="text-sm hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 py-8">
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="md:col-span-2 space-y-4">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h2 class="text-2xl font-bold mb-2">Welcome</h2>
+          <p class="text-sm">This is a basic Tailwind CSS template using the CDN. Start building your UI here.</p>
+          <div class="mt-4 flex gap-2">
+            <button class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Primary</button>
+            <button class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Secondary</button>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-lg font-semibold mb-3">Form</h3>
+          <form class="space-y-3">
+            <input type="text" placeholder="Name" class="w-full border rounded px-3 py-2" />
+            <input type="email" placeholder="Email" class="w-full border rounded px-3 py-2" />
+            <textarea placeholder="Message" class="w-full border rounded px-3 py-2 h-24"></textarea>
+            <div class="flex justify-end">
+              <button type="submit" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <aside class="space-y-4">
+        <div class="bg-white p-4 rounded-lg shadow">
+          <h4 class="font-semibold">Stats</h4>
+          <ul class="mt-2 text-sm space-y-1">
+            <li>Users: <strong>1,234</strong></li>
+            <li>Active: <strong>87%</strong></li>
+            <li>Errors: <strong>2</strong></li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-4 rounded-lg shadow">
+          <h4 class="font-semibold">Links</h4>
+          <ul class="mt-2 text-sm space-y-1">
+            <li><a href="#" class="hover:underline">Documentation</a></li>
+            <li><a href="#" class="hover:underline">API</a></li>
+            <li><a href="#" class="hover:underline">Support</a></li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="bg-white border-t">
+    <div class="max-w-7xl mx-auto px-4 py-4 text-sm text-center">
+      © 2025 Project Name. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
